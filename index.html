@@ -73,28 +73,30 @@
     }
     footer {
       background: #f6f8fa;
-      padding: 1.5rem 0;
       border-top: 1px solid #ccc;
       margin-top: 2rem;
+    }
+    footer > div:first-child {
+      background: linear-gradient(90deg, #5f72bd 0%, #9aabe7 100%);
+      color: white;
+      padding: 2rem 1rem 1rem 1rem;
+      margin-bottom: 0;
       text-align: center;
     }
-    footer .footer-header {
-      background: linear-gradient(90deg, #5f72bd 0%, #9aabe7 100%);
-      color: #fff;
-      padding: 2rem 1rem 1rem 1rem;
-      margin-bottom: 0; /* Elimina espacio inferior */
-    }
-    footer .footer-header h1 {
+    footer > div:first-child h1 {
       font-size: 2.5rem;
-      margin-bottom: 0.3rem;
+      margin: 0 0 0.3rem 0;
     }
-    footer .footer-header p {
+    footer > div:first-child p {
       font-size: 1.2rem;
       margin: 0;
     }
     footer > div:last-child {
-      margin-top: 0; /* Pegado arriba */
-      padding-top: 0;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1rem 2rem 1rem;
+      margin-top: 0;
+      text-align: center;
     }
     footer > div:last-child p:first-child {
       font-weight: bold;
@@ -102,9 +104,7 @@
       margin: 0.5rem 0 0 0;
     }
     footer > div:last-child p:last-child {
-      font-weight: normal;
       margin: 0;
-      color: #444;
     }
     @media (max-width: 600px) {
       main {
@@ -236,7 +236,7 @@
   </main>
 
   <footer>
-    <div class="footer-header">
+    <div>
       <h1>El Impacto de las Ondas Musicales en el Cerebro Humano</h1>
       <p>Descubre cómo la música transforma tu mente, emociones y salud.</p>
     </div>
