@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Impacto de las Ondas Musicales en el Cerebro Humano</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: url('https://img.freepik.com/fotos-premium/ondas-sonido-abstractas-forma-onda-audio-frecuencia-elementos-interfaz-hud-onda-musical_339974-103.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            position: relative;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(20, 20, 40, 0.75);
+            z-index: 0;
+        }
+        #content {
+            position: relative;
+            z-index: 1;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background: transparent;
+            color: #fff;
+            padding: 3rem 1rem 1.5rem 1rem;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 900;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            margin-top: 0;
+            text-shadow: 0 4px 24px #000, 0 1px 0 #5f72bd;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #fff;
+        }
+        header p {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto 4rem auto;
+            background: rgba(30, 30, 60, 0.85);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(80,80,120,0.18);
+            padding: 2rem;
+        }
+        h2, h3 {
+            color: #fff;
+        }
+        h2 {
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.3rem;
+        }
+        ul, ol {
+            margin-left: 1.5rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            background: rgba(40, 40, 70, 0.85);
+            color: #fff;
+        }
+        th, td {
+            border: 1px solid #5f72bd;
+            padding: 0.5rem 0.7rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(95, 114, 189, 0.8);
+        }
+        .icon {
+            font-size: 1.2em;
+            margin-right: 0.3em;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .highlight {
+            background: rgba(95, 114, 189, 0.25);
+            border-left: 4px solid #fff;
+            padding: 0.7rem 1rem;
+            margin: 1rem 0;
+            border-radius: 6px;
+            color: #fff;
+        }
+        .ondas-img {
+            display: none;
+        }
+        a { color: #aaccff; }
+        .footer {
+            width: 100%;
+            text-align: center;
+            padding: 2rem 1rem 1.5rem 1rem;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            background: transparent;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            z-index: 2;
+            text-shadow: 0 2px 8px #000;
+        }
+        .footer .autor {
+            font-size: 0.8rem;
+            font-weight: normal;
+            margin-top: 0.2em;
+            display: block;
+        }
+        .img-cerebro {
+            display: block;
+            margin: 2rem auto 1.5rem auto;
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(80,80,120,0.25);
+        }
+        @media (max-width: 600px) {
+            main { padding: 1rem; }
+            h1 { font-size: 2rem; }
+            .footer { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <header>
+        <h1>El Impacto de las Ondas Musicales en el Cerebro Humano</h1>
+        <p>Descubre cómo la música transforma tu mente, emociones y salud.</p>
+    </header>
+    <main>
+        <section class="section">
+            <h2><span class="icon">🎶</span>Introducción</h2>
+            <p>
+                La música ha acompañado al ser humano desde tiempos ancestrales, no solo como una forma de arte o entretenimiento, sino también como una herramienta poderosa de conexión emocional y transformación interior. Gracias a los avances en neurociencia, hoy sabemos que las ondas musicales —vibraciones organizadas que percibimos como sonido— tienen un impacto real y medible sobre el cerebro humano.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2><span class="icon">🔬</span>¿Qué Son las Ondas Musicales?</h2>
+            <p>
+                Las ondas musicales son vibraciones acústicas que viajan a través del aire (o cualquier medio físico) y que son captadas por nuestro oído. Estas vibraciones tienen propiedades específicas como frecuencia, amplitud y forma de onda, que determinan cómo las percibimos:
+            </p>
+            <ul>
+                <li><b>Frecuencia (Hz):</b> Define el tono. Frecuencias bajas suenan graves, altas suenan agudas.</li>
+                <li><b>Amplitud (dB):</b> Se relaciona con la intensidad o volumen.</li>
+                <li><b>Forma de onda:</b> Afecta el timbre, o “color” del sonido.</li>
+            </ul>
+            <div class="highlight">
+                Estas señales sonoras son convertidas por el oído en impulsos eléctricos que el cerebro interpreta y asocia con emociones, recuerdos y estímulos físicos.
+            </div>
+        </section>
+
+        <section class="section">
+            <h2><span class="icon">🧠</span>¿Cómo Procesa el Cerebro la Música?</h2>
+            <ol>
+                <li>
+                    <b>Corteza Auditiva:</b> Procesa el tono, ritmo, melodía y armonía. Se encarga de descomponer los sonidos complejos y reconocer patrones musicales.
+                </li>
+                <li>
+                    <b>Sistema Límbico:</b> Incluye estructuras como la amígdala y el hipocampo, responsables de la emoción y la memoria. Explica por qué ciertas canciones pueden hacernos llorar, reír o recordar momentos específicos.
+                </li>
+                <li>
+                    <b>Corteza Prefrontal:</b> Relacionada con la planificación, la toma de decisiones y la creatividad. Escuchar o componer música activa esta región, especialmente en músicos.
+                </li>
+                <li>
+                    <b>Cerebelo y Corteza Motora:</b> Se encargan del ritmo y la coordinación. Por eso el cuerpo tiende a moverse con la música, como al bailar o marcar el ritmo.
+                </li>
+            </ol>
+            <img src="Imagen de WhatsApp 2025-05-28 a las 22.32.08_93c686bd.jpg" alt="Cómo llega la música al cerebro" class="img-cerebro">
+        </section>
+
+        <section class="section">
+            <h2><span class="icon">🎵</span>Ondas Cerebrales y Música: Una Conexión Directa</h2>
+            <table>
+                <tr>
+                    <th>Tipo de Onda</th>
+                    <th>Frecuencia (Hz)</th>
+                    <th>Estado Mental Asociado</th>
+                </tr>
+                <tr>
+                    <td>Delta</td>
+                    <td>0.5 – 4 Hz</td>
+                    <td>Sueño profundo, regeneración</td>
+                </tr>
+                <tr>
+                    <td>Theta</td>
+                    <td>4 – 8 Hz</td>
+                    <td>Meditación profunda, sueños lúcidos</td>
+                </tr>
+                <tr>
+                    <td>Alfa</td>
+                    <td>8 – 14 Hz</td>
+                    <td>Relajación, flujo creativo</td>
+                </tr>
+                <tr>
+                    <td>Beta</td>
+                    <td>14 – 30 Hz</td>
+                    <td>Alerta, concentración</td>
+                </tr>
+                <tr>
+                    <td>Gamma</td>
+                    <td>+30 Hz</td>
+                    <td>Procesos cognitivos complejos, insight</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="section">
+            <h2><span class="icon">📌</span>Música y Modulación de Ondas Cerebrales</h2>
+            <ul>
+                <li><b>Música binaural:</b> Usa dos frecuencias ligeramente diferentes en cada oído para inducir estados mentales específicos.</li>
+                <li><b>Sonoterapia:</b> Aplica frecuencias concretas para tratar ansiedad, trastornos del sueño, TDAH, entre otros.</li>
+                <li><b>Terapias vibroacústicas:</b> Usan altavoces de baja frecuencia aplicados al cuerpo para generar bienestar físico y mental.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2><span class="icon">❤️</span>Beneficios Psicológicos y Cognitivos de la Música</h2>
+            <ol>
+                <li>
+                    <b>Mejora del Estado de Ánimo:</b> Aumenta la dopamina (neurotransmisor del placer), libera oxitocina (empatía) y serotonina (bienestar general).
+                </li>
+                <li>
+                    <b>Reducción del Estrés y la Ansiedad:</b> La música con tempos lentos y sonidos suaves puede disminuir los niveles de cortisol, la hormona del estrés, y promover la relajación profunda.
+                </li>
+                <li>
+                    <b>Estimulación de la Memoria:</b> La música estimula el hipocampo, por lo que se utiliza en terapias para personas con Alzheimer o pérdida de memoria. También favorece el aprendizaje cuando se escucha música instrumental.
+                </li>
+                <li>
+                    <b>Incremento de la Productividad:</b> Ciertas músicas (especialmente sin letra y con ritmos constantes) ayudan a mantener la atención y mejorar el rendimiento en el estudio o trabajo.
+                </li>
+            </ol>
+        </section>
+
+        <section class="section">
+            <h2><span class="icon">🎓</span>Aplicaciones de la Música en la Ciencia y la Salud</h2>
+            <h3>Terapias Musicales</h3>
+            <ul>
+                <li><b>Musicoterapia:</b> Empleada para tratar depresión, ansiedad, autismo, adicciones, y más.</li>
+                <li><b>Neurorehabilitación musical:</b> Usada en rehabilitación post-accidente cerebrovascular o Parkinson.</li>
+                <li><b>Rehabilitación motora:</b> El ritmo musical mejora la coordinación y la movilidad en terapias físicas.</li>
+            </ul>
+            <h3>Educación y Aprendizaje</h3>
+            <ul>
+                <li>La música favorece el aprendizaje de idiomas, el pensamiento lógico y el desarrollo emocional en niños.</li>
+                <li>Tocar un instrumento desarrolla habilidades motoras y cognitivas, mejorando la plasticidad cerebral.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2><span class="icon">🧏‍♂️</span>¿Cómo Perciben la Música las Personas Sordas?</h2>
+            <ol>
+                <li>
+                    <b><span class="icon">🔊</span>Vibraciones Sonoras:</b> Sienten las ondas a través del suelo, altavoces, o superficies vibrantes. Usan dispositivos hápticos como chalecos, cinturones o mochilas que convierten el sonido en vibración.
+                </li>
+                <li>
+                    <b><span class="icon">👁</span>Estímulo Visual:</b> Luces sincronizadas al ritmo musical. Representaciones visuales de las ondas de sonido en colores o formas. Intérpretes de lengua de señas que traducen la música en tiempo real con expresión corporal.
+                </li>
+                <li>
+                    <b><span class="icon">💃</span>Movimiento y Coreografía:</b> Perciben el ritmo corporalmente a través del baile. Se sincronizan con la música mediante señales visuales, memoria muscular y práctica.
+                </li>
+                <li>
+                    <b><span class="icon">🎧</span>Tecnología e Innovación:</b> SubPac: mochila vibratoria para sentir música en el torso y espalda. Trajes hápticos: distribuyen la música como vibración en todo el cuerpo. Proyectos como “Feel the Music” acercan la música clásica a jóvenes sordos mediante tecnología.
+                </li>
+            </ol>
+        </section>
+
+        <section class="section">
+            <h2><span class="icon">🌈</span>La Música Como Experiencia Multisensorial</h2>
+            <p>
+                La música es mucho más que sonido: es vibración, emoción, energía, movimiento. Las personas sordas no oyen la música, pero sí la sienten, la viven y la interpretan. Su forma de experimentarla demuestra que la música es un lenguaje universal accesible desde múltiples sentidos.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2><span class="icon">🌌</span>El Futuro: Música, Tecnología y Conciencia</h2>
+            <ul>
+                <li>Apps que ajustan la música al estado emocional.</li>
+                <li>Juegos de meditación musical en VR.</li>
+                <li>Algoritmos que crean música adaptada a ondas cerebrales en tiempo real.</li>
+            </ul>
+            <p>
+                Estas herramientas prometen revolucionar no solo cómo escuchamos música, sino cómo usamos el sonido como medicina para el cuerpo y la mente.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2><span class="icon">📖</span>Conclusión</h2>
+            <p>
+                Las ondas musicales son mucho más que una experiencia auditiva. Impactan directamente en nuestras emociones, en el rendimiento mental, en la salud física e incluso en cómo nos conectamos con los demás. La música puede ser sentida, vista, bailada, recordada, usada para sanar o para crecer. Entender cómo afectan las ondas musicales al cerebro humano nos invita a usar esta herramienta con propósito, creatividad y conciencia.
+            </p>
+        </section>
+    </main>
+    <footer class="footer">
+        Politécnico Nacional Del Callao, Grupo 2, 4° "B"
+        <span class="autor">By: Navi Torres</span>
+    </footer>
+</div>
+</body>
+</html>
