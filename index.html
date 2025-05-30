@@ -223,6 +223,131 @@
                 </tr>
             </table>
         </section>
+        <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+  .audio-section {
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+  }
+
+  .audio-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+  }
+
+  .audio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .audio-card {
+    background: rgba(30, 30, 60, 0.95);
+    border: 1px solid #6a80ff;
+    border-radius: 18px;
+    padding: 1.5rem;
+    width: 260px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+  }
+
+  .audio-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .audio-card h4 {
+    margin: 0 0 0.6rem;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .audio-card p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    color: #e0e0e0;
+  }
+
+  .audio-card audio {
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  @media (max-width: 600px) {
+    .audio-card {
+      width: 100%;
+    }
+  }
+</style>
+
+<section class="section audio-section">
+  <h2>🎧 Escucha las Ondas Cerebrales</h2>
+  <div class="audio-grid">
+
+    <div class="audio-card">
+      <h4>Sueño Profundo (Delta)</h4>
+      <p><strong>Tipo de onda:</strong> Delta</p>
+      <p><strong>Frecuencia:</strong> 0.5 – 4 Hz</p>
+      <p><strong>Estado mental:</strong> Regeneración, sueño profundo</p>
+      <audio controls>
+        <source src="audio/delta.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+    </div>
+
+    <div class="audio-card">
+      <h4>Meditación Interna (Theta)</h4>
+      <p><strong>Tipo de onda:</strong> Theta</p>
+      <p><strong>Frecuencia:</strong> 4 – 8 Hz</p>
+      <p><strong>Estado mental:</strong> Meditación profunda, intuición</p>
+      <audio controls>
+        <source src="audio/theta.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+    </div>
+
+    <div class="audio-card">
+      <h4>Flujo Creativo (Alfa)</h4>
+      <p><strong>Tipo de onda:</strong> Alfa</p>
+      <p><strong>Frecuencia:</strong> 8 – 14 Hz</p>
+      <p><strong>Estado mental:</strong> Relajación, inspiración</p>
+      <audio controls>
+        <source src="audio/alfa.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+    </div>
+
+    <div class="audio-card">
+      <h4>Concentración Activa (Beta)</h4>
+      <p><strong>Tipo de onda:</strong> Beta</p>
+      <p><strong>Frecuencia:</strong> 14 – 30 Hz</p>
+      <p><strong>Estado mental:</strong> Enfoque, productividad</p>
+      <audio controls>
+        <source src="audio/beta.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+    </div>
+
+    <div class="audio-card">
+      <h4>Alta Cognición (Gamma)</h4>
+      <p><strong>Tipo de onda:</strong> Gamma</p>
+      <p><strong>Frecuencia:</strong> +30 Hz</p>
+      <p><strong>Estado mental:</strong> Aprendizaje, conciencia plena</p>
+      <audio controls>
+        <source src="audio/gamma.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+    </div>
+
+  </div>
+</section>
 
         <section class="section">
             <h2><span class="icon">📌</span>Música y Modulación de Ondas Cerebrales</h2>
